@@ -1,8 +1,7 @@
 'use strict';
 const ADMIN_PASSWORD = 'jqueryismyjam';
-let message;
 
-message = prompt(`Введите пароль администратора`);
+let message = prompt(`Введите пароль администратора`);
 
 if (message === ADMIN_PASSWORD) {
     alert(`Добро пожаловать!`);
